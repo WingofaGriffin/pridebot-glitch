@@ -1,0 +1,32 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "pridebot-glitch",
+  "version": "1.0.0",
+  "description": "A Twilio bot that sends you info on the soonest pride event in a given city.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "twilio": "^3.39.5",
+    "request": "^2.88.2",
+    "node-cron": "^2.0.3"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/pridebot-glitch"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "twilio",
+    "apify",
+    "express"
+  ]
+}
